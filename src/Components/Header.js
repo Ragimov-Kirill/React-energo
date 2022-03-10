@@ -7,6 +7,9 @@ import About from '../Pages/About';
 import Contacts from '../Pages/Contacts';
 import Blog from '../Pages/Blog';
 import Management from '../Pages/Management';
+import Requisites from '../Pages/Requisites';
+import WorkingMode from '../Pages/WorkingMode';
+
 
 export default class Header extends Component {
   render() {
@@ -46,8 +49,8 @@ export default class Header extends Component {
                         menuVariant="primary"
                       >
                         <NavDropdown.Item href="/contacts">Контакты</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">Реквизиты</NavDropdown.Item>
-                          <NavDropdown.Item href="#action/3.2">Режим работы</NavDropdown.Item>
+                        <NavDropdown.Item href="/requisites">Реквизиты</NavDropdown.Item>
+                          <NavDropdown.Item href="/workingmode">Режим работы</NavDropdown.Item>
 
                       </NavDropdown>
                     </Nav>
@@ -76,6 +79,8 @@ export default class Header extends Component {
                 <Route exact path="/contacts" element={<Contacts/>}/>
                 <Route exact path="/blog" element={<Blog/>}/>
                 <Route exact path="/management"element={<Management/>}/>
+                <Route exact path="/requisites"element={<Requisites/>}/>
+                <Route exact path="/workingmode"element={<WorkingMode/>}/>
             </Routes>
           </Router>
         </>
