@@ -6,8 +6,7 @@ export default class WorkingMode extends Component {
        <>
        <div>
           <h3 align ="center">Режимы работы РУП "Гродноэнерго", филиалов и районов электрических сетей"</h3>
-
-       </div>
+      </div>
 
        <table class="table table-bordered">
   <thead>
