@@ -1,0 +1,14 @@
+.warning {
+    border: 5px ridge #808080 ;
+    padding: .70rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+
+
+}
+p,li {
+    font: small-caps bold 1rem sans-serif;
+    text-align: left;
+}
