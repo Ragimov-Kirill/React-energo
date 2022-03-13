@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import '../Pages/man.css';
 import derector from '../assets/Zhuk_VS.jpg';
 import firstzam from '../assets/shmakov_2013.jpg';
 import zam from '../assets/raik_2018-1.jpg';
@@ -13,7 +14,7 @@ export default class Management extends Component {
        </div>
 
        <div className ="Ruk">
-       <table>
+       <table className="Table">
           <tr>
             <td>
             <div className = "Derector">
