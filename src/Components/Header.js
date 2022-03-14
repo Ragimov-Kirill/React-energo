@@ -45,7 +45,7 @@ export default class Header extends Component {
                     <Nav>
                       <NavDropdown
                         id="nav-dropdown-dark-example"
-                        title="О предприятии"
+                        title="Контакты и реквизиты"
                         menuVariant="primary"
                       >
                         <NavDropdown.Item href="/contacts">Контакты</NavDropdown.Item>
